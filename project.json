@@ -1,0 +1,20 @@
+{
+  "id": 841,
+  "title": "Roof Inspection Drone Waypoint Missions",
+  "repository_slug": "roof-inspection-drone-waypoint-missions",
+  "category": "Drones",
+  "platform": "Jetson Orin Nano",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "connectivity": "Telemetry radio",
+  "components": [
+    "camera",
+    "IMU"
+  ],
+  "scope": "Build a drones prototype that uses camera, IMU to fly repeatable waypoint routes. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Waypoint Missions demonstration with repeatable test steps",
+  "mode": "edge_classification",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
